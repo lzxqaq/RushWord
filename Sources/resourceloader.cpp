@@ -1,5 +1,9 @@
-#include "../Headers/resourceloader.h"
+#include "resourceloader.h"
 
-ResourceLoader::initResourceFile()
-{
-}
+// ResourceLoader::ResourceLoader()
+// {
+// }
+
+// ResourceLoader::~ResourceLoader()
+// {
+// }

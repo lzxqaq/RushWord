@@ -6,19 +6,36 @@ class ResourceLoader
 private:
     /* data */
     //存放加载的文件名
-    string[] resourceFileName;
+    string[] m_resourceFileName;
+
+    //唯一静态实例，单例模式
+    static ResourceLoader *s_loaderInstance;
+
 
 public:
+    static ResourceLoader *getInstance();
     void initResourceFile();
     string[] getAllFileName();
     string getSingleFileName(int index);
 
     Word[] loadResourceFile(string fileName);
+
+
     ResourceLoader(/* args */);
     ~ResourceLoader();
 };
+ResourceLoader::ResourceLoader()
+{
+}
+
+ResourceLoader::~ResourceLoader()
+{
+}
 
 ResourceLoader::initResourceFile()
+{
+}
+ResourceLoader::getInstance1()
 {
 }
 
