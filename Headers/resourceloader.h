@@ -4,7 +4,6 @@
 class ResourceLoader
 {
 private:
-    /* data */
     //存放加载的文件名
     string[] m_resourceFileName;
 
@@ -21,22 +20,8 @@ public:
     Word[] loadResourceFile(string fileName);
 
 
-    ResourceLoader(/* args */);
+    ResourceLoader();
     ~ResourceLoader();
 };
-ResourceLoader::ResourceLoader()
-{
-}
-
-ResourceLoader::~ResourceLoader()
-{
-}
-
-ResourceLoader::initResourceFile()
-{
-}
-ResourceLoader::getInstance1()
-{
-}
 
 #endif
